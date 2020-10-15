@@ -22,3 +22,16 @@ https://ip.of.your.server:8443
 
 source:
 https://community.ui.com/questions/UniFi-Installation-Scripts-or-UniFi-Easy-Update-Script-or-UniFi-Lets-Encrypt-or-Ubuntu-16-04-18-04-/ccbc7530-dd61-40a7-82ec-22b17f027776?page=10
+
+
+
+Run the command below in your terminal to start the script:
+```bash
+rm unifi-lets-encrypt.sh &> /dev/null; wget https://get.glennr.nl/unifi/extra/unifi-lets-encrypt.sh && bash unifi-lets-encrypt.sh
+```
+
+You can use the option --help to find all the script options:
+
+```bash
+bash unifi-lets-encrypt.sh --help
+```
