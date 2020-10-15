@@ -151,4 +151,4 @@ if [[ -f /tmp/EUS/script_options && -s /tmp/EUS/script_options ]]; then IFS=" " 
 rm --force "$0" 2> /dev/null
 rm --force unifi-latest.sh* 2> /dev/null
 rm --force unifi-6.0.23.sh 2> /dev/null
-wget -q https://get.glennr.nl/unifi/install/unifi-6.0.23.sh && bash unifi-6.0.23.sh "${script_options[@]}"; exit 0
+wget -q https://raw.githubusercontent.com/talgan/unifi/main/unifi-6.0.23.sh "${script_options[@]}"; exit 0
